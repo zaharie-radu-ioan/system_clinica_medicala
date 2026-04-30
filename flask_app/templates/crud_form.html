@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% set title = table_cfg["title"] ~ " - " ~ ("Create" if mode=="create" else "Edit") %}
+
+{% block content %}
+  <div class="page-head">
+    <div>
+      <div class="breadcrumb">
+        <a href="{{ url_for('index') }}">Dashboard</a>
+        <span>›</span>
+        <a href="{{ url_for('crud_list', table=table) }}">{{ table_cfg["title"] }}</a>
+        <span>›</span>
+        <span>{{ "Create" if mode=="create" else "Edit #" ~ rec_id }}</span>
+      </div>
+      <h1>{{ table_cfg["title"] }} &middot; {{ "Create" if mode=="create" else "Edit" }}</h1>
+      <p class="muted">
+        {% if mode=="create" %}Completează câmpurile și salvează înregistrarea.
+        {% else %}Modifică doar câmpurile permise.{% endif %}
+      </p>
+    </div>
+    <a class="btn btn-ghost" href="{{ url_for('crud_list', table=table) }}">← Back</a>
+  </div>
+
+  <div class="panel">
+    <form method="post" class="form">
+      {% for f in fields %}
+        <div class="form-group">
+          <label>{{ f }}</label>
+
+          {% if fk_options and f in fk_options %}
+            <select name="{{ f }}">
+              {% for val, label in fk_options[f] %}
+                <option value="{{ val }}"
+                  {% if values.get(f) == val or values.get(f) == (val|int) %}selected{% endif %}>
+                  {{ val }} &ndash; {{ label }}
+                </option>
+              {% endfor %}
+            </select>
+
+          {% elif choices and f in choices %}
+            <select name="{{ f }}">
+              {% for opt in choices[f] %}
+                <option value="{{ opt }}" {% if values.get(f) == opt %}selected{% endif %}>{{ opt }}</option>
+              {% endfor %}
+            </select>
+
+          {% else %}
+            <input name="{{ f }}" value="{{ values.get(f, '') }}" placeholder="{{ f }}">
+          {% endif %}
+        </div>
+      {% endfor %}
+
+      <div class="actions">
+        <button class="btn" type="submit">{{ "Create" if mode=="create" else "Save changes" }}</button>
+        <a class="btn btn-ghost" href="{{ url_for('crud_list', table=table) }}">Cancel</a>
+      </div>
+    </form>
+
+    {% if mode=="edit" %}
+      <p class="muted" style="margin-top:16px; font-size:12px; border-top:1px solid var(--border); padding-top:14px;">
+        Editezi înregistrarea cu <span class="mono">{{ table_cfg["pk"] }} = {{ rec_id }}</span>
+      </p>
+    {% endif %}
+  </div>
+{% endblock %}

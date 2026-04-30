@@ -1,0 +1,5002 @@
+[
+  {
+    "id_medic": 297,
+    "nume_medic": "Dr. Dumitrescu Bogdan",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 3820.0,
+      "nr_consultatii": 8,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 144,
+    "nume_medic": "Dr. Nemeș Anamaria",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 3540.0,
+      "nr_consultatii": 11,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 371,
+    "nume_medic": "Dr. Popescu Robert",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 3430.0,
+      "nr_consultatii": 7,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 364,
+    "nume_medic": "Dr. Ioniță Erica",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 3170.0,
+      "nr_consultatii": 7,
+      "rata_succes": 87.5
+    }
+  },
+  {
+    "id_medic": 408,
+    "nume_medic": "Dr. Ionescu Robertina",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 3140.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 446,
+    "nume_medic": "Dr. Mocanu Aurica",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 3090.0,
+      "nr_consultatii": 10,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 91,
+    "nume_medic": "Dr. Niță Henrieta",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 2980.0,
+      "nr_consultatii": 7,
+      "rata_succes": 70.0
+    }
+  },
+  {
+    "id_medic": 467,
+    "nume_medic": "Dr. Stoica Zoe",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 2940.0,
+      "nr_consultatii": 6,
+      "rata_succes": 85.71
+    }
+  },
+  {
+    "id_medic": 263,
+    "nume_medic": "Dr. Nistor Zoe",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 2850.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 227,
+    "nume_medic": "Dr. Aanei Angel",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 2800.0,
+      "nr_consultatii": 6,
+      "rata_succes": 85.71
+    }
+  },
+  {
+    "id_medic": 220,
+    "nume_medic": "Dr. Popescu Ion",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 2780.0,
+      "nr_consultatii": 6,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 327,
+    "nume_medic": "Dr. Stănescu Aleodor",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 2700.0,
+      "nr_consultatii": 8,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 273,
+    "nume_medic": "Dr. Popescu Teodosia",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 2680.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 483,
+    "nume_medic": "Dr. Gheorghiu Marioara",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 2500.0,
+      "nr_consultatii": 6,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 302,
+    "nume_medic": "Dr. Dima Luiza",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 2490.0,
+      "nr_consultatii": 6,
+      "rata_succes": 85.71
+    }
+  },
+  {
+    "id_medic": 495,
+    "nume_medic": "Dr. Popa Florin",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 2380.0,
+      "nr_consultatii": 6,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 454,
+    "nume_medic": "Dr. Diaconu Frederic",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 2360.0,
+      "nr_consultatii": 6,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 31,
+    "nume_medic": "Dr. Tomescu Costel",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 2280.0,
+      "nr_consultatii": 6,
+      "rata_succes": 85.71
+    }
+  },
+  {
+    "id_medic": 72,
+    "nume_medic": "Dr. Stancu Matei",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 2280.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 60,
+    "nume_medic": "Dr. Diaconu Gheorghiță",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 2280.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 213,
+    "nume_medic": "Dr. Toma Iosefina",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 2270.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 199,
+    "nume_medic": "Dr. Preda Evelina",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 2260.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 53,
+    "nume_medic": "Dr. Dumitrescu Felicia",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 2240.0,
+      "nr_consultatii": 7,
+      "rata_succes": 77.78
+    }
+  },
+  {
+    "id_medic": 420,
+    "nume_medic": "Dr. Niță Eugen",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 2240.0,
+      "nr_consultatii": 6,
+      "rata_succes": 85.71
+    }
+  },
+  {
+    "id_medic": 318,
+    "nume_medic": "Dr. Aanei Haralamb",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 2200.0,
+      "nr_consultatii": 7,
+      "rata_succes": 87.5
+    }
+  },
+  {
+    "id_medic": 404,
+    "nume_medic": "Dr. Pop Mircea",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 2200.0,
+      "nr_consultatii": 7,
+      "rata_succes": 87.5
+    }
+  },
+  {
+    "id_medic": 270,
+    "nume_medic": "Dr. Oprea Alina",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 2190.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 385,
+    "nume_medic": "Dr. Tomescu Caterina",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 2150.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 466,
+    "nume_medic": "Dr. Niță Tudor",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 2130.0,
+      "nr_consultatii": 7,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 346,
+    "nume_medic": "Dr. Eftimie Valter",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 2120.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 197,
+    "nume_medic": "Dr. Nemeș Mihai",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 2080.0,
+      "nr_consultatii": 7,
+      "rata_succes": 87.5
+    }
+  },
+  {
+    "id_medic": 223,
+    "nume_medic": "Dr. Popescu Didina",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 2050.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 267,
+    "nume_medic": "Dr. Preda Matilda",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 2040.0,
+      "nr_consultatii": 7,
+      "rata_succes": 87.5
+    }
+  },
+  {
+    "id_medic": 460,
+    "nume_medic": "Dr. Ardelean Mina",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 2030.0,
+      "nr_consultatii": 6,
+      "rata_succes": 85.71
+    }
+  },
+  {
+    "id_medic": 359,
+    "nume_medic": "Dr. Nistor Dumitra",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 2020.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 233,
+    "nume_medic": "Dr. Ene Sabrina",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 2020.0,
+      "nr_consultatii": 6,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 172,
+    "nume_medic": "Dr. Mocanu Ducu",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 2000.0,
+      "nr_consultatii": 6,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 9,
+    "nume_medic": "Dr. Stoica Codrina",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 1990.0,
+      "nr_consultatii": 5,
+      "rata_succes": 71.43
+    }
+  },
+  {
+    "id_medic": 331,
+    "nume_medic": "Dr. Ionescu Leordean",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 1980.0,
+      "nr_consultatii": 5,
+      "rata_succes": 62.5
+    }
+  },
+  {
+    "id_medic": 10,
+    "nume_medic": "Dr. Tudor Semenica",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 1980.0,
+      "nr_consultatii": 7,
+      "rata_succes": 87.5
+    }
+  },
+  {
+    "id_medic": 296,
+    "nume_medic": "Dr. Dumitrescu Clarisa",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1970.0,
+      "nr_consultatii": 6,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 365,
+    "nume_medic": "Dr. Mazilescu Anabela",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 1940.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 484,
+    "nume_medic": "Dr. Ionescu Sidonia",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 1930.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 102,
+    "nume_medic": "Dr. Niță Corvin",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 1900.0,
+      "nr_consultatii": 6,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 106,
+    "nume_medic": "Dr. Dochioiu Relu",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 1900.0,
+      "nr_consultatii": 6,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 176,
+    "nume_medic": "Dr. Tomescu Florin",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 1890.0,
+      "nr_consultatii": 6,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 381,
+    "nume_medic": "Dr. Voinea Iancu",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1870.0,
+      "nr_consultatii": 6,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 334,
+    "nume_medic": "Dr. Nistor Eleonora",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 1870.0,
+      "nr_consultatii": 5,
+      "rata_succes": 71.43
+    }
+  },
+  {
+    "id_medic": 474,
+    "nume_medic": "Dr. Cristea Vanesa",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1860.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 304,
+    "nume_medic": "Dr. Ionescu Luca",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 1860.0,
+      "nr_consultatii": 6,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 290,
+    "nume_medic": "Dr. Stan Ruxanda",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 1830.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 380,
+    "nume_medic": "Dr. Stan Casian",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 1830.0,
+      "nr_consultatii": 6,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 22,
+    "nume_medic": "Dr. Dinu Todor",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 1820.0,
+      "nr_consultatii": 6,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 205,
+    "nume_medic": "Dr. Popa Tudorița",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 1810.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 112,
+    "nume_medic": "Dr. Toma Alexe",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 1800.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 246,
+    "nume_medic": "Dr. Ababei Ivona",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1780.0,
+      "nr_consultatii": 4,
+      "rata_succes": 57.14
+    }
+  },
+  {
+    "id_medic": 434,
+    "nume_medic": "Dr. Stancu Grigore",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 1780.0,
+      "nr_consultatii": 6,
+      "rata_succes": 85.71
+    }
+  },
+  {
+    "id_medic": 129,
+    "nume_medic": "Dr. Dumitrescu Șerban",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 1770.0,
+      "nr_consultatii": 6,
+      "rata_succes": 85.71
+    }
+  },
+  {
+    "id_medic": 465,
+    "nume_medic": "Dr. Dinu Frederic",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 1740.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 171,
+    "nume_medic": "Dr. Pop Gicu",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1740.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 193,
+    "nume_medic": "Dr. Ababei Delia",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 1730.0,
+      "nr_consultatii": 7,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 184,
+    "nume_medic": "Dr. Mocanu Manuela",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1710.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 415,
+    "nume_medic": "Dr. Manole Ofelia",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 1700.0,
+      "nr_consultatii": 7,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 443,
+    "nume_medic": "Dr. Aanei Fabiana",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 1700.0,
+      "nr_consultatii": 6,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 36,
+    "nume_medic": "Dr. Diaconescu Mărioara",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1700.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 300,
+    "nume_medic": "Dr. Aanei Alex",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 1690.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 230,
+    "nume_medic": "Dr. Diaconescu Ancuța",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1670.0,
+      "nr_consultatii": 4,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 224,
+    "nume_medic": "Dr. Pușcașu Eustațiu",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1670.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 379,
+    "nume_medic": "Dr. Barbu Ilona",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 1660.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 130,
+    "nume_medic": "Dr. Barbu Anamaria",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 1650.0,
+      "nr_consultatii": 6,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 11,
+    "nume_medic": "Dr. Cristea Norica",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1650.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 159,
+    "nume_medic": "Dr. Stănescu Florentina",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1640.0,
+      "nr_consultatii": 6,
+      "rata_succes": 85.71
+    }
+  },
+  {
+    "id_medic": 7,
+    "nume_medic": "Dr. Niță Andrei",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 1640.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 80,
+    "nume_medic": "Dr. Ionescu Nicuță",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 1640.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 156,
+    "nume_medic": "Dr. Ene Denisa",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 1640.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 188,
+    "nume_medic": "Dr. Manole Cedrin",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 1640.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 378,
+    "nume_medic": "Dr. Stoica Lucian",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 1630.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 161,
+    "nume_medic": "Dr. Popa Veta",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 1630.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 132,
+    "nume_medic": "Dr. Albu Dalia",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 1620.0,
+      "nr_consultatii": 6,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 190,
+    "nume_medic": "Dr. Ababei Saveta",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 1610.0,
+      "nr_consultatii": 7,
+      "rata_succes": 87.5
+    }
+  },
+  {
+    "id_medic": 455,
+    "nume_medic": "Dr. Ardelean Alex",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 1610.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 189,
+    "nume_medic": "Dr. Manole Octaviana",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 1610.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 376,
+    "nume_medic": "Dr. Ioniță Tincuța",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1600.0,
+      "nr_consultatii": 5,
+      "rata_succes": 71.43
+    }
+  },
+  {
+    "id_medic": 256,
+    "nume_medic": "Dr. Diaconu Ioan",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 1600.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 345,
+    "nume_medic": "Dr. Tabacu Anton",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 1580.0,
+      "nr_consultatii": 4,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 424,
+    "nume_medic": "Dr. Mazilescu Teofil",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 1570.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 387,
+    "nume_medic": "Dr. Stancu Floare",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 1570.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 373,
+    "nume_medic": "Dr. Preda Paraschiva",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1570.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 143,
+    "nume_medic": "Dr. Diaconu Eric",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1570.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 493,
+    "nume_medic": "Dr. Albu Elodia",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 1570.0,
+      "nr_consultatii": 5,
+      "rata_succes": 71.43
+    }
+  },
+  {
+    "id_medic": 63,
+    "nume_medic": "Dr. Ene Codrina",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 1560.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 43,
+    "nume_medic": "Dr. Stan Daniel",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 1560.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 458,
+    "nume_medic": "Dr. Popa Bogdan",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1550.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 142,
+    "nume_medic": "Dr. Ioniță Natalia",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 1550.0,
+      "nr_consultatii": 6,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 336,
+    "nume_medic": "Dr. Dima Tinca",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1530.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 59,
+    "nume_medic": "Dr. Barbu Anton",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1530.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 462,
+    "nume_medic": "Dr. Dumitrescu Zenovia",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 1520.0,
+      "nr_consultatii": 4,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 160,
+    "nume_medic": "Dr. Stancu Damian",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 1520.0,
+      "nr_consultatii": 3,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 196,
+    "nume_medic": "Dr. Ababei Isabela",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1520.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 406,
+    "nume_medic": "Dr. Dobre Silvia",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1510.0,
+      "nr_consultatii": 4,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 360,
+    "nume_medic": "Dr. Marin Cosmina",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 1510.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 168,
+    "nume_medic": "Dr. Barbu Ilona",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 1490.0,
+      "nr_consultatii": 3,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 281,
+    "nume_medic": "Dr. Nemeș Ilarion",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 1490.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 24,
+    "nume_medic": "Dr. Stancu Sandu",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 1490.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 243,
+    "nume_medic": "Dr. Dima Cristobal",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 1490.0,
+      "nr_consultatii": 5,
+      "rata_succes": 62.5
+    }
+  },
+  {
+    "id_medic": 28,
+    "nume_medic": "Dr. Manole Octavia",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1490.0,
+      "nr_consultatii": 3,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 183,
+    "nume_medic": "Dr. Dumitrescu Emilian",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 1490.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 95,
+    "nume_medic": "Dr. Marin Corina",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1470.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 88,
+    "nume_medic": "Dr. Gheorghiu Teohari",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 1460.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 51,
+    "nume_medic": "Dr. Voinea Zoe",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1460.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 393,
+    "nume_medic": "Dr. Georgescu Semenica",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 1460.0,
+      "nr_consultatii": 3,
+      "rata_succes": 42.86
+    }
+  },
+  {
+    "id_medic": 178,
+    "nume_medic": "Dr. Ionescu Paulina",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 1460.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 287,
+    "nume_medic": "Dr. Eftimie Monalisa",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1440.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 82,
+    "nume_medic": "Dr. Nistor Alexe",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 1440.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 240,
+    "nume_medic": "Dr. Barbu Isabela",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 1430.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 21,
+    "nume_medic": "Dr. Gheorghiu Achim",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 1420.0,
+      "nr_consultatii": 4,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 487,
+    "nume_medic": "Dr. Nistor Daniel",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 1420.0,
+      "nr_consultatii": 4,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 192,
+    "nume_medic": "Dr. Niță Bianca",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1420.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 265,
+    "nume_medic": "Dr. Tomescu Iridenta",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 1410.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 472,
+    "nume_medic": "Dr. Dumitrescu Adelin",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1390.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 499,
+    "nume_medic": "Dr. Mazilescu Nae",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 1380.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 328,
+    "nume_medic": "Dr. Manole Emanoil",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 1360.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 248,
+    "nume_medic": "Dr. Albu Jenel",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 1360.0,
+      "nr_consultatii": 4,
+      "rata_succes": 57.14
+    }
+  },
+  {
+    "id_medic": 62,
+    "nume_medic": "Dr. Stan Marcel",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1350.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 135,
+    "nume_medic": "Dr. Albu Iustina",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 1350.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 398,
+    "nume_medic": "Dr. Stan Ioana",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 1350.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 241,
+    "nume_medic": "Dr. Dumitrescu Caius",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 1340.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 180,
+    "nume_medic": "Dr. Tudor Toma",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1340.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 151,
+    "nume_medic": "Dr. Tomescu Octaviana",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 1340.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 23,
+    "nume_medic": "Dr. Barbu Patricia",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 1340.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 433,
+    "nume_medic": "Dr. Cristea Mihnea",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 1330.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 25,
+    "nume_medic": "Dr. Pop Eva",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 1320.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 392,
+    "nume_medic": "Dr. Albu Izabela",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 1310.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 74,
+    "nume_medic": "Dr. Ionescu Atena",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 1310.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 445,
+    "nume_medic": "Dr. Albu Luca",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1290.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 260,
+    "nume_medic": "Dr. Voinea Ionel",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 1290.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 461,
+    "nume_medic": "Dr. Mocanu Emil",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 1290.0,
+      "nr_consultatii": 5,
+      "rata_succes": 71.43
+    }
+  },
+  {
+    "id_medic": 401,
+    "nume_medic": "Dr. Aanei Cleopatra",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 1280.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 98,
+    "nume_medic": "Dr. Ababei Relu",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1280.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 16,
+    "nume_medic": "Dr. Popa Timotei",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 1270.0,
+      "nr_consultatii": 3,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 5,
+    "nume_medic": "Dr. Marin Daiana",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 1260.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 391,
+    "nume_medic": "Dr. Barbu Leontin",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 1250.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 477,
+    "nume_medic": "Dr. Popescu Liliana",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 1240.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 228,
+    "nume_medic": "Dr. Barbu Gregorian",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 1240.0,
+      "nr_consultatii": 6,
+      "rata_succes": 85.71
+    }
+  },
+  {
+    "id_medic": 274,
+    "nume_medic": "Dr. Gheorghiu Jana",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 1230.0,
+      "nr_consultatii": 4,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 187,
+    "nume_medic": "Dr. Barbu Francesca",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 1230.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 452,
+    "nume_medic": "Dr. Nistor Aurelia",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 1230.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 66,
+    "nume_medic": "Dr. Ene Benone",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 1220.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 425,
+    "nume_medic": "Dr. Florea Vasilica",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 1220.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 191,
+    "nume_medic": "Dr. Albu Pavel",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1210.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 19,
+    "nume_medic": "Dr. Niță Roberta",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 1210.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 298,
+    "nume_medic": "Dr. Diaconescu Damian",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 1200.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 366,
+    "nume_medic": "Dr. Dinu Eustațiu",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 1190.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 87,
+    "nume_medic": "Dr. Preda Tudora",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 1190.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 64,
+    "nume_medic": "Dr. Nistor Sava",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 1190.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 73,
+    "nume_medic": "Dr. Cristea Ozana",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 1190.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 165,
+    "nume_medic": "Dr. Gheorghiu Alexandra",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 1180.0,
+      "nr_consultatii": 4,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 403,
+    "nume_medic": "Dr. Popescu Ștefania",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1170.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 316,
+    "nume_medic": "Dr. Aanei Horia",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1170.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 475,
+    "nume_medic": "Dr. Tabacu Dumitra",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1170.0,
+      "nr_consultatii": 4,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 310,
+    "nume_medic": "Dr. Popescu Maria",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 1160.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 303,
+    "nume_medic": "Dr. Manole Aurel",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 1160.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 38,
+    "nume_medic": "Dr. Aanei Julia",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 1150.0,
+      "nr_consultatii": 4,
+      "rata_succes": 57.14
+    }
+  },
+  {
+    "id_medic": 32,
+    "nume_medic": "Dr. Ionescu Florentina",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 1150.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 242,
+    "nume_medic": "Dr. Dobre Camil",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 1150.0,
+      "nr_consultatii": 4,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 262,
+    "nume_medic": "Dr. Dobre Vladimir",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1140.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 449,
+    "nume_medic": "Dr. Aanei Cipriana",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 1140.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 356,
+    "nume_medic": "Dr. Albu Denisa",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 1140.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 113,
+    "nume_medic": "Dr. Tomescu Ioan",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 1130.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 186,
+    "nume_medic": "Dr. Tudor Draga",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 1130.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 418,
+    "nume_medic": "Dr. Manole Viorel",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 1130.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 399,
+    "nume_medic": "Dr. Dima Lavinia",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1130.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 37,
+    "nume_medic": "Dr. Albu Miruna",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 1130.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 311,
+    "nume_medic": "Dr. Aanei Matei",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 1130.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 347,
+    "nume_medic": "Dr. Popescu Stelian",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1130.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 362,
+    "nume_medic": "Dr. Tudor Vasile",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 1120.0,
+      "nr_consultatii": 4,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 480,
+    "nume_medic": "Dr. Georgescu Vasilică",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1120.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 75,
+    "nume_medic": "Dr. Marin Eugen",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 1110.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 198,
+    "nume_medic": "Dr. Popa Sorina",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 1110.0,
+      "nr_consultatii": 3,
+      "rata_succes": 42.86
+    }
+  },
+  {
+    "id_medic": 167,
+    "nume_medic": "Dr. Stănescu Constanța",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1100.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 368,
+    "nume_medic": "Dr. Dima Silviana",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 1100.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 459,
+    "nume_medic": "Dr. Pop Emanuil",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1100.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 305,
+    "nume_medic": "Dr. Voinea Adrian",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 1090.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 217,
+    "nume_medic": "Dr. Pușcașu Francisc",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1090.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 115,
+    "nume_medic": "Dr. Toma Lazăr",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 1090.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 145,
+    "nume_medic": "Dr. Nistor Lăcrămioara",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 1080.0,
+      "nr_consultatii": 5,
+      "rata_succes": 83.33
+    }
+  },
+  {
+    "id_medic": 181,
+    "nume_medic": "Dr. Suciu Călin",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 1080.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 125,
+    "nume_medic": "Dr. Tudor Eufrosina",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 1080.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 70,
+    "nume_medic": "Dr. Tomescu Augustin",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 1080.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 476,
+    "nume_medic": "Dr. Preda Dora",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 1080.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 258,
+    "nume_medic": "Dr. Dima Catrinel",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 1070.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 367,
+    "nume_medic": "Dr. Ardelean Zaharia",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 1070.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 120,
+    "nume_medic": "Dr. Ardelean Decebal",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 1070.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 214,
+    "nume_medic": "Dr. Mocanu Viorel",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 1060.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 437,
+    "nume_medic": "Dr. Diaconescu Tudorița",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 1060.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 492,
+    "nume_medic": "Dr. Suciu Adelin",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 1040.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 277,
+    "nume_medic": "Dr. Ene Codruț",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1040.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 92,
+    "nume_medic": "Dr. Preda Amelia",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 1040.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 128,
+    "nume_medic": "Dr. Marin Zeno",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 1040.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 140,
+    "nume_medic": "Dr. Marin Mugurel",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 1030.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 185,
+    "nume_medic": "Dr. Marin Milena",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 1030.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 152,
+    "nume_medic": "Dr. Ababei Dumitra",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 1030.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 312,
+    "nume_medic": "Dr. Nistor Vladimir",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1030.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 111,
+    "nume_medic": "Dr. Eftimie Agnos",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 1020.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 65,
+    "nume_medic": "Dr. Ionescu Svetlana",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1020.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 497,
+    "nume_medic": "Dr. Niță Stanca",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 1010.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 163,
+    "nume_medic": "Dr. Popa Viviana",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 1000.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 85,
+    "nume_medic": "Dr. Manole Octav",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 1000.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 139,
+    "nume_medic": "Dr. Ababei Mara",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 1000.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 344,
+    "nume_medic": "Dr. Dochioiu Evelina",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 1000.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 259,
+    "nume_medic": "Dr. Pușcașu Cezar",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 990.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 450,
+    "nume_medic": "Dr. Popa Ștefana",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 990.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 110,
+    "nume_medic": "Dr. Mazilescu Vicenția",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 990.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 349,
+    "nume_medic": "Dr. Albu Florența",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 980.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 358,
+    "nume_medic": "Dr. Dinu Bernard",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 980.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 438,
+    "nume_medic": "Dr. Stancu Viorel",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 970.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 299,
+    "nume_medic": "Dr. Dobre Gina",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 970.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 436,
+    "nume_medic": "Dr. Stan Iustina",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 970.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 212,
+    "nume_medic": "Dr. Ionescu Celia",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 970.0,
+      "nr_consultatii": 5,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 215,
+    "nume_medic": "Dr. Pușcașu Petruț",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 970.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 448,
+    "nume_medic": "Dr. Barbu Dumitra",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 970.0,
+      "nr_consultatii": 4,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 96,
+    "nume_medic": "Dr. Tabacu Vanesa",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 970.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 354,
+    "nume_medic": "Dr. Albu Alida",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 960.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 244,
+    "nume_medic": "Dr. Cristea Mirela",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 960.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 175,
+    "nume_medic": "Dr. Mazilescu Petrică",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 960.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 202,
+    "nume_medic": "Dr. Ardelean Vera",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 960.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 339,
+    "nume_medic": "Dr. Dinu Adrian",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 960.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 121,
+    "nume_medic": "Dr. Toma Daniela",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 950.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 166,
+    "nume_medic": "Dr. Dumitrescu Renata",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 950.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 275,
+    "nume_medic": "Dr. Dochioiu Cristina",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 950.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 314,
+    "nume_medic": "Dr. Tabacu Crina",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 940.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 307,
+    "nume_medic": "Dr. Preda Aurelia",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 940.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 278,
+    "nume_medic": "Dr. Georgescu Angel",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 930.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 432,
+    "nume_medic": "Dr. Ababei Darius",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 930.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 93,
+    "nume_medic": "Dr. Dinu Claudiu",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 930.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 261,
+    "nume_medic": "Dr. Aanei Alice",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 930.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 174,
+    "nume_medic": "Dr. Niță Estera",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 930.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 210,
+    "nume_medic": "Dr. Ene Claudia",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 930.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 204,
+    "nume_medic": "Dr. Tabacu Vladimir",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 920.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 203,
+    "nume_medic": "Dr. Eftimie Demetra",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 920.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 485,
+    "nume_medic": "Dr. Mocanu Amanda",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 920.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 471,
+    "nume_medic": "Dr. Nemeș Emanuil",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 920.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 306,
+    "nume_medic": "Dr. Dumitrescu Carolina",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 920.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 173,
+    "nume_medic": "Dr. Dobre Carmina",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 920.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 245,
+    "nume_medic": "Dr. Stancu Anuța",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 910.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 361,
+    "nume_medic": "Dr. Stancu Florentina",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 910.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 222,
+    "nume_medic": "Dr. Ioniță Amza",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 900.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 285,
+    "nume_medic": "Dr. Pușcașu Dacian",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 900.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 29,
+    "nume_medic": "Dr. Manole Gabriel",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 900.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 234,
+    "nume_medic": "Dr. Stancu Pamela",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 900.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 407,
+    "nume_medic": "Dr. Aanei Tudosia",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 900.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 329,
+    "nume_medic": "Dr. Ioniță Ioanina",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 900.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 342,
+    "nume_medic": "Dr. Manole Eleonora",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 890.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 17,
+    "nume_medic": "Dr. Manole Leordean",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 890.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 400,
+    "nume_medic": "Dr. Nemeș Eusebiu",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 890.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 216,
+    "nume_medic": "Dr. Pușcașu Norbert",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 890.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 498,
+    "nume_medic": "Dr. Eftimie Aurel",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 890.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 464,
+    "nume_medic": "Dr. Pop Alex",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 880.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 162,
+    "nume_medic": "Dr. Albu Axinte",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 870.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 494,
+    "nume_medic": "Dr. Barbu Tudora",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 870.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 388,
+    "nume_medic": "Dr. Dobre Ghenadie",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 870.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 52,
+    "nume_medic": "Dr. Diaconu Marius",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 860.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 293,
+    "nume_medic": "Dr. Albu Teea",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 860.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 119,
+    "nume_medic": "Dr. Nemeș Minodora",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 860.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 45,
+    "nume_medic": "Dr. Dochioiu Sebastian",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 860.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 355,
+    "nume_medic": "Dr. Aanei Pompiliu",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 850.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 326,
+    "nume_medic": "Dr. Tudor Catinca",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 850.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 351,
+    "nume_medic": "Dr. Georgescu Iulian",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 840.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 410,
+    "nume_medic": "Dr. Preda Rebeca",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 840.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 414,
+    "nume_medic": "Dr. Stan Andreea",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 840.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 157,
+    "nume_medic": "Dr. Mocanu Melania",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 840.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 431,
+    "nume_medic": "Dr. Tabacu Anica",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 840.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 384,
+    "nume_medic": "Dr. Nistor Bogdan",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 840.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 411,
+    "nume_medic": "Dr. Stan Lucrețiu",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 840.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 417,
+    "nume_medic": "Dr. Aanei Bogdana",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 830.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 423,
+    "nume_medic": "Dr. Aanei Nidia",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 820.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 238,
+    "nume_medic": "Dr. Pop Mioara",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 820.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 4,
+    "nume_medic": "Dr. Pop Ștefan",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 820.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 313,
+    "nume_medic": "Dr. Eftimie Sabina",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 810.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 440,
+    "nume_medic": "Dr. Stoica Ionică",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 810.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 58,
+    "nume_medic": "Dr. Oprea Antonia",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 800.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 348,
+    "nume_medic": "Dr. Dobre Ecaterina",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 800.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 396,
+    "nume_medic": "Dr. Oprea Nechifor",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 790.0,
+      "nr_consultatii": 4,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 375,
+    "nume_medic": "Dr. Ardelean Severina",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 790.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 137,
+    "nume_medic": "Dr. Gheorghiu Alexandrina",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 790.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 402,
+    "nume_medic": "Dr. Nemeș Betina",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 790.0,
+      "nr_consultatii": 2,
+      "rata_succes": 40.0
+    }
+  },
+  {
+    "id_medic": 81,
+    "nume_medic": "Dr. Stancu Sever",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 780.0,
+      "nr_consultatii": 3,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 325,
+    "nume_medic": "Dr. Stan Teodosia",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 780.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 269,
+    "nume_medic": "Dr. Dima Panait",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 780.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 77,
+    "nume_medic": "Dr. Dochioiu Andrian",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 780.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 279,
+    "nume_medic": "Dr. Georgescu Alexe",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 770.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 254,
+    "nume_medic": "Dr. Manole Sergiu",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 760.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 71,
+    "nume_medic": "Dr. Tudor Codruța",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 760.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 463,
+    "nume_medic": "Dr. Stan Dumitru",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 760.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 56,
+    "nume_medic": "Dr. Ardelean Jeana",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 760.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 284,
+    "nume_medic": "Dr. Dinu Antoaneta",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 760.0,
+      "nr_consultatii": 4,
+      "rata_succes": 80.0
+    }
+  },
+  {
+    "id_medic": 353,
+    "nume_medic": "Dr. Voinea Romeo",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 750.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 357,
+    "nume_medic": "Dr. Pop Lică",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 750.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 33,
+    "nume_medic": "Dr. Albu Sebastian",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 740.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 97,
+    "nume_medic": "Dr. Mazilescu Fabiana",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 740.0,
+      "nr_consultatii": 3,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 249,
+    "nume_medic": "Dr. Dumitrescu Veniamin",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 730.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 235,
+    "nume_medic": "Dr. Ene Augustin",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 730.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 413,
+    "nume_medic": "Dr. Albu Ancuța",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 720.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 292,
+    "nume_medic": "Dr. Toma Florea",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 720.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 350,
+    "nume_medic": "Dr. Popescu Ilie",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 710.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 149,
+    "nume_medic": "Dr. Diaconescu Rodica",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 700.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 138,
+    "nume_medic": "Dr. Pușcașu Emanuel",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 700.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 330,
+    "nume_medic": "Dr. Gheorghiu Narcis",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 700.0,
+      "nr_consultatii": 2,
+      "rata_succes": 28.57
+    }
+  },
+  {
+    "id_medic": 155,
+    "nume_medic": "Dr. Stănescu Ștefania",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 700.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 289,
+    "nume_medic": "Dr. Diaconescu Antonela",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 690.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 456,
+    "nume_medic": "Dr. Marin Otilia",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 680.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 79,
+    "nume_medic": "Dr. Preda Codruț",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 680.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 426,
+    "nume_medic": "Dr. Toma Cornelia",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 680.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 317,
+    "nume_medic": "Dr. Florea Georgiana",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 670.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 225,
+    "nume_medic": "Dr. Ionescu Tatiana",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 670.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 389,
+    "nume_medic": "Dr. Popa Lucian",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 670.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 457,
+    "nume_medic": "Dr. Oprea Maricica",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 670.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 13,
+    "nume_medic": "Dr. Popescu Simion",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 670.0,
+      "nr_consultatii": 2,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 90,
+    "nume_medic": "Dr. Eftimie Ieremia",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 660.0,
+      "nr_consultatii": 3,
+      "rata_succes": 60.0
+    }
+  },
+  {
+    "id_medic": 1,
+    "nume_medic": "Dr. Stancu Rozalia",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 660.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 229,
+    "nume_medic": "Dr. Dobre Mihaela",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 660.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 374,
+    "nume_medic": "Dr. Pușcașu Amanda",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 650.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 26,
+    "nume_medic": "Dr. Stănescu Eftimia",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 650.0,
+      "nr_consultatii": 2,
+      "rata_succes": 40.0
+    }
+  },
+  {
+    "id_medic": 341,
+    "nume_medic": "Dr. Mocanu Ladislau",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 650.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 288,
+    "nume_medic": "Dr. Gheorghiu Ioanina",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 650.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 86,
+    "nume_medic": "Dr. Georgescu Florea",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 640.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 369,
+    "nume_medic": "Dr. Stănescu Veniamin",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 640.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 122,
+    "nume_medic": "Dr. Stan Iuliana",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 640.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 158,
+    "nume_medic": "Dr. Tomescu Panait",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 640.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 421,
+    "nume_medic": "Dr. Nistor Georgia",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 640.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 320,
+    "nume_medic": "Dr. Dima Sidonia",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 640.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 489,
+    "nume_medic": "Dr. Stoica Cerasela",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 640.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 488,
+    "nume_medic": "Dr. Eftimie Darius",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 630.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 195,
+    "nume_medic": "Dr. Barbu Izabela",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 630.0,
+      "nr_consultatii": 3,
+      "rata_succes": 75.0
+    }
+  },
+  {
+    "id_medic": 47,
+    "nume_medic": "Dr. Nistor Achim",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 630.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 322,
+    "nume_medic": "Dr. Aanei Eftimia",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 620.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 486,
+    "nume_medic": "Dr. Nemeș Liviu",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 620.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 451,
+    "nume_medic": "Dr. Nistor Alin",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 610.0,
+      "nr_consultatii": 2,
+      "rata_succes": 40.0
+    }
+  },
+  {
+    "id_medic": 428,
+    "nume_medic": "Dr. Gheorghiu Marian",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 610.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 308,
+    "nume_medic": "Dr. Niță Flavia",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 610.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 8,
+    "nume_medic": "Dr. Ababei Dorian",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 600.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 3,
+    "nume_medic": "Dr. Voinea Eduard",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 600.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 469,
+    "nume_medic": "Dr. Ioniță Artemisa",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 600.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 473,
+    "nume_medic": "Dr. Mazilescu Ionuț",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 600.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 194,
+    "nume_medic": "Dr. Dumitrescu Horea",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 600.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 383,
+    "nume_medic": "Dr. Diaconescu Horia",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 590.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 272,
+    "nume_medic": "Dr. Nistor Iolanda",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 590.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 253,
+    "nume_medic": "Dr. Mazilescu Codruța",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 590.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 50,
+    "nume_medic": "Dr. Stoica Iosefina",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 590.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 68,
+    "nume_medic": "Dr. Gheorghiu Ionică",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 590.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 500,
+    "nume_medic": "Dr. Florea Lidia",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 580.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 372,
+    "nume_medic": "Dr. Aanei Simona",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 580.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 42,
+    "nume_medic": "Dr. Marin Marilena",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 580.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 131,
+    "nume_medic": "Dr. Stan Ioana",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 570.0,
+      "nr_consultatii": 3,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 35,
+    "nume_medic": "Dr. Voinea Ofelia",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 570.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 427,
+    "nume_medic": "Dr. Barbu Laurențiu",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 570.0,
+      "nr_consultatii": 2,
+      "rata_succes": 40.0
+    }
+  },
+  {
+    "id_medic": 116,
+    "nume_medic": "Dr. Barbu Gherghina",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 570.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 271,
+    "nume_medic": "Dr. Nistor Olimpiu",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 570.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 118,
+    "nume_medic": "Dr. Dobre Petronela",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 560.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 319,
+    "nume_medic": "Dr. Pop Flora",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 560.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 200,
+    "nume_medic": "Dr. Suciu Francisc",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 560.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 117,
+    "nume_medic": "Dr. Dochioiu Steluța",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 560.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 435,
+    "nume_medic": "Dr. Dochioiu Casian",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 560.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 124,
+    "nume_medic": "Dr. Oprea Marinela",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 560.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 430,
+    "nume_medic": "Dr. Tomescu Vera",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 560.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 114,
+    "nume_medic": "Dr. Tomescu Ilarie",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 560.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 264,
+    "nume_medic": "Dr. Tudor Flavia",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 550.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 49,
+    "nume_medic": "Dr. Tabacu Alexandra",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 550.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 257,
+    "nume_medic": "Dr. Stancu Ariana",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 550.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 109,
+    "nume_medic": "Dr. Nistor Pavel",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 550.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 177,
+    "nume_medic": "Dr. Tudor Teohari",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 540.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 286,
+    "nume_medic": "Dr. Tomescu Mihaela",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 540.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 153,
+    "nume_medic": "Dr. Eftimie Ludovic",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 540.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 61,
+    "nume_medic": "Dr. Stoica Victor",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 530.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 101,
+    "nume_medic": "Dr. Ababei Lucian",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 530.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 46,
+    "nume_medic": "Dr. Stancu Suzana",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 530.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 324,
+    "nume_medic": "Dr. Albu Aurel",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 530.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 442,
+    "nume_medic": "Dr. Ababei Ștefania",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 520.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 108,
+    "nume_medic": "Dr. Georgescu Irina",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 520.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 382,
+    "nume_medic": "Dr. Georgescu Natașa",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 520.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 397,
+    "nume_medic": "Dr. Popescu Gică",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 520.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 405,
+    "nume_medic": "Dr. Ene Norman",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 510.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 478,
+    "nume_medic": "Dr. Dochioiu Mitică",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 510.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 39,
+    "nume_medic": "Dr. Manole Mădălina",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 510.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 15,
+    "nume_medic": "Dr. Dumitrescu Melina",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 510.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 315,
+    "nume_medic": "Dr. Niță Eusebiu",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 510.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 154,
+    "nume_medic": "Dr. Albu Francesca",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 500.0,
+      "nr_consultatii": 2,
+      "rata_succes": 40.0
+    }
+  },
+  {
+    "id_medic": 148,
+    "nume_medic": "Dr. Suciu Dana",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 500.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 422,
+    "nume_medic": "Dr. Tabacu Amza",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 500.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 239,
+    "nume_medic": "Dr. Popa Julia",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 500.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 164,
+    "nume_medic": "Dr. Ene Leontin",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 500.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 100,
+    "nume_medic": "Dr. Barbu Ancuța",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 500.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 182,
+    "nume_medic": "Dr. Cristea Svetlana",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 490.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 232,
+    "nume_medic": "Dr. Stoica Renata",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 490.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 266,
+    "nume_medic": "Dr. Oprea Jean",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 490.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 103,
+    "nume_medic": "Dr. Nistor Monica",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 470.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 416,
+    "nume_medic": "Dr. Cristea Andrei",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 470.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 218,
+    "nume_medic": "Dr. Oprea Blanduzia",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 460.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 377,
+    "nume_medic": "Dr. Stoica Augustin",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 460.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 107,
+    "nume_medic": "Dr. Nemeș Nicușor",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 450.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 394,
+    "nume_medic": "Dr. Albu Iuliana",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 450.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 84,
+    "nume_medic": "Dr. Dumitrescu Iuliu",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 440.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 294,
+    "nume_medic": "Dr. Georgescu Florentina",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 440.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 444,
+    "nume_medic": "Dr. Stan Albertina",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 440.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 133,
+    "nume_medic": "Dr. Dobre Carina",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 440.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 206,
+    "nume_medic": "Dr. Georgescu Nicolaie",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 440.0,
+      "nr_consultatii": 2,
+      "rata_succes": 40.0
+    }
+  },
+  {
+    "id_medic": 337,
+    "nume_medic": "Dr. Pop Albertina",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 430.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 6,
+    "nume_medic": "Dr. Stănescu Simi",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 430.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 250,
+    "nume_medic": "Dr. Stănescu Rebeca",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 420.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 276,
+    "nume_medic": "Dr. Aanei Ariadna",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 420.0,
+      "nr_consultatii": 2,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 280,
+    "nume_medic": "Dr. Ardelean Dalia",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 420.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 321,
+    "nume_medic": "Dr. Preda Aureliana",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 420.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 146,
+    "nume_medic": "Dr. Pușcașu Petrișor",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 420.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 363,
+    "nume_medic": "Dr. Toma Codin",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 410.0,
+      "nr_consultatii": 1,
+      "rata_succes": 20.0
+    }
+  },
+  {
+    "id_medic": 69,
+    "nume_medic": "Dr. Diaconescu Aglaia",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 410.0,
+      "nr_consultatii": 2,
+      "rata_succes": 66.67
+    }
+  },
+  {
+    "id_medic": 55,
+    "nume_medic": "Dr. Mazilescu Crin",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 410.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 67,
+    "nume_medic": "Dr. Dima Iosefina",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 400.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 20,
+    "nume_medic": "Dr. Pop Veta",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 400.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 468,
+    "nume_medic": "Dr. Pop Roxelana",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 400.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 247,
+    "nume_medic": "Dr. Nemeș Frederic",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 400.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 219,
+    "nume_medic": "Dr. Popescu Norica",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 400.0,
+      "nr_consultatii": 2,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 104,
+    "nume_medic": "Dr. Cristea Giorgiana",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 390.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 18,
+    "nume_medic": "Dr. Pușcașu Frederic",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 390.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 332,
+    "nume_medic": "Dr. Stan Victoria",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 380.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 57,
+    "nume_medic": "Dr. Tudor Dora",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 380.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 123,
+    "nume_medic": "Dr. Eftimie Sergiu",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 380.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 479,
+    "nume_medic": "Dr. Dinu Ieremia",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 370.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 343,
+    "nume_medic": "Dr. Ene Ruxandra",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 370.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 226,
+    "nume_medic": "Dr. Nistor Tamara",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 360.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 221,
+    "nume_medic": "Dr. Eftimie Antim",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 360.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 209,
+    "nume_medic": "Dr. Toma Mircea",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 350.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 490,
+    "nume_medic": "Dr. Dima Antonela",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 350.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 447,
+    "nume_medic": "Dr. Mazilescu Lavinia",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 340.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 169,
+    "nume_medic": "Dr. Barbu Miron",
+    "specializare": "Oncologie",
+    "performanta": {
+      "venit_total": 340.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 141,
+    "nume_medic": "Dr. Popa Crina",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 340.0,
+      "nr_consultatii": 1,
+      "rata_succes": 25.0
+    }
+  },
+  {
+    "id_medic": 309,
+    "nume_medic": "Dr. Gheorghiu Antonie",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 330.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 482,
+    "nume_medic": "Dr. Mazilescu Gregorian",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 330.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 207,
+    "nume_medic": "Dr. Ionescu Sandu",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 330.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 301,
+    "nume_medic": "Dr. Dochioiu Anemona",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 320.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 44,
+    "nume_medic": "Dr. Suciu Aurora",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 310.0,
+      "nr_consultatii": 2,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 352,
+    "nume_medic": "Dr. Florea Corvin",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 310.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 429,
+    "nume_medic": "Dr. Albu Edmond",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 310.0,
+      "nr_consultatii": 1,
+      "rata_succes": 25.0
+    }
+  },
+  {
+    "id_medic": 295,
+    "nume_medic": "Dr. Georgescu Oana",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 300.0,
+      "nr_consultatii": 1,
+      "rata_succes": 25.0
+    }
+  },
+  {
+    "id_medic": 134,
+    "nume_medic": "Dr. Mazilescu Florian",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 300.0,
+      "nr_consultatii": 1,
+      "rata_succes": 25.0
+    }
+  },
+  {
+    "id_medic": 412,
+    "nume_medic": "Dr. Barbu Agripina",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 300.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 14,
+    "nume_medic": "Dr. Pușcașu Pamela",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 300.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 208,
+    "nume_medic": "Dr. Mazilescu Carmen",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 290.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 179,
+    "nume_medic": "Dr. Diaconescu Dinu",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 290.0,
+      "nr_consultatii": 1,
+      "rata_succes": 25.0
+    }
+  },
+  {
+    "id_medic": 333,
+    "nume_medic": "Dr. Ene Lucențiu",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 290.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 126,
+    "nume_medic": "Dr. Aanei Ștefania",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 280.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 105,
+    "nume_medic": "Dr. Aanei Iustina",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 280.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 236,
+    "nume_medic": "Dr. Dochioiu Olimpiu",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 270.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 30,
+    "nume_medic": "Dr. Georgescu Georgiana",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 270.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 390,
+    "nume_medic": "Dr. Ardelean Mihaela",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 270.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 335,
+    "nume_medic": "Dr. Manole Aglaia",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 270.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 41,
+    "nume_medic": "Dr. Albu Paula",
+    "specializare": "Ortopedie",
+    "performanta": {
+      "venit_total": 270.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 150,
+    "nume_medic": "Dr. Dima Jeana",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 260.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 323,
+    "nume_medic": "Dr. Tomescu Ghiță",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 260.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 496,
+    "nume_medic": "Dr. Nemeș Iuliu",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 260.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 481,
+    "nume_medic": "Dr. Toma Florina",
+    "specializare": "Endocrinologie",
+    "performanta": {
+      "venit_total": 260.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 491,
+    "nume_medic": "Dr. Ababei Renata",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 250.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 439,
+    "nume_medic": "Dr. Mazilescu Lucia",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 250.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 370,
+    "nume_medic": "Dr. Florea Maria",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 250.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 283,
+    "nume_medic": "Dr. Stancu Leonard",
+    "specializare": "Nefrologie",
+    "performanta": {
+      "venit_total": 250.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 395,
+    "nume_medic": "Dr. Oprea Constanța",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 240.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 136,
+    "nume_medic": "Dr. Aanei Bănel",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 230.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 409,
+    "nume_medic": "Dr. Tudor Varvara",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 230.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 201,
+    "nume_medic": "Dr. Aanei Elena",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 230.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 268,
+    "nume_medic": "Dr. Dumitrescu Noemi",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 220.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 441,
+    "nume_medic": "Dr. Nistor Demetra",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 220.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 127,
+    "nume_medic": "Dr. Nistor Alice",
+    "specializare": "Gastroenterologie",
+    "performanta": {
+      "venit_total": 210.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 89,
+    "nume_medic": "Dr. Diaconu Sabrina",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 210.0,
+      "nr_consultatii": 1,
+      "rata_succes": 25.0
+    }
+  },
+  {
+    "id_medic": 83,
+    "nume_medic": "Dr. Preda Aurelia",
+    "specializare": "Medicină Internă",
+    "performanta": {
+      "venit_total": 210.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 291,
+    "nume_medic": "Dr. Niță Norica",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 200.0,
+      "nr_consultatii": 1,
+      "rata_succes": 100.0
+    }
+  },
+  {
+    "id_medic": 211,
+    "nume_medic": "Dr. Ababei Anghel",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 200.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 170,
+    "nume_medic": "Dr. Dumitrescu Jenel",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 160.0,
+      "nr_consultatii": 1,
+      "rata_succes": 33.33
+    }
+  },
+  {
+    "id_medic": 282,
+    "nume_medic": "Dr. Niță Voichița",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 150.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 48,
+    "nume_medic": "Dr. Eftimie Sever",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 150.0,
+      "nr_consultatii": 1,
+      "rata_succes": 50.0
+    }
+  },
+  {
+    "id_medic": 470,
+    "nume_medic": "Dr. Suciu Adelaida",
+    "specializare": "Neurologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 54,
+    "nume_medic": "Dr. Oprea Mădălin",
+    "specializare": "Dermatologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 255,
+    "nume_medic": "Dr. Stănescu Ilarion",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 40,
+    "nume_medic": "Dr. Nistor Geanina",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 419,
+    "nume_medic": "Dr. Ene Eufrosina",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 99,
+    "nume_medic": "Dr. Dinu Aureliana",
+    "specializare": "Cardiologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 12,
+    "nume_medic": "Dr. Oprea Ionela",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 76,
+    "nume_medic": "Dr. Popescu Petruța",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 94,
+    "nume_medic": "Dr. Gheorghiu Daniel",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 231,
+    "nume_medic": "Dr. Manole Sidonia",
+    "specializare": "Hematologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 2,
+    "nume_medic": "Dr. Mocanu Iuliana",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 34,
+    "nume_medic": "Dr. Stan Emanoil",
+    "specializare": "Radiologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 386,
+    "nume_medic": "Dr. Dobre Aurelian",
+    "specializare": "Ginecologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 340,
+    "nume_medic": "Dr. Stănescu Dinu",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 147,
+    "nume_medic": "Dr. Dinu Răzvan",
+    "specializare": "Pediatrie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 252,
+    "nume_medic": "Dr. Diaconu Nadia",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 453,
+    "nume_medic": "Dr. Florea Salomea",
+    "specializare": "Oftalmologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 78,
+    "nume_medic": "Dr. Nemeș Sabin",
+    "specializare": "Psihiatrie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 338,
+    "nume_medic": "Dr. Stan Gicu",
+    "specializare": "Reumatologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 27,
+    "nume_medic": "Dr. Gheorghiu Sabin",
+    "specializare": "Urologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 251,
+    "nume_medic": "Dr. Dinu David",
+    "specializare": "ORL",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  },
+  {
+    "id_medic": 237,
+    "nume_medic": "Dr. Oprea Adrian",
+    "specializare": "Pneumologie",
+    "performanta": {
+      "venit_total": 0.0,
+      "nr_consultatii": 0,
+      "rata_succes": 0.0
+    }
+  }
+]

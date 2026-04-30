@@ -1,0 +1,116 @@
+[
+  {
+    "specializare": "Oncologie",
+    "total_consultatii": 102,
+    "cost_mediu": 465.392157,
+    "venit_total": 47470.0
+  },
+  {
+    "specializare": "Endocrinologie",
+    "total_consultatii": 101,
+    "cost_mediu": 295.247525,
+    "venit_total": 29820.0
+  },
+  {
+    "specializare": "Oftalmologie",
+    "total_consultatii": 97,
+    "cost_mediu": 262.164948,
+    "venit_total": 25430.0
+  },
+  {
+    "specializare": "Ginecologie",
+    "total_consultatii": 94,
+    "cost_mediu": 354.787234,
+    "venit_total": 33350.0
+  },
+  {
+    "specializare": "Reumatologie",
+    "total_consultatii": 93,
+    "cost_mediu": 302.580645,
+    "venit_total": 28140.0
+  },
+  {
+    "specializare": "Cardiologie",
+    "total_consultatii": 90,
+    "cost_mediu": 429.222222,
+    "venit_total": 38630.0
+  },
+  {
+    "specializare": "Neurologie",
+    "total_consultatii": 88,
+    "cost_mediu": 337.613636,
+    "venit_total": 29710.0
+  },
+  {
+    "specializare": "Hematologie",
+    "total_consultatii": 88,
+    "cost_mediu": 310.0,
+    "venit_total": 27280.0
+  },
+  {
+    "specializare": "Dermatologie",
+    "total_consultatii": 87,
+    "cost_mediu": 242.988506,
+    "venit_total": 21140.0
+  },
+  {
+    "specializare": "Pneumologie",
+    "total_consultatii": 86,
+    "cost_mediu": 331.744186,
+    "venit_total": 28530.0
+  },
+  {
+    "specializare": "Gastroenterologie",
+    "total_consultatii": 86,
+    "cost_mediu": 368.372093,
+    "venit_total": 31680.0
+  },
+  {
+    "specializare": "ORL",
+    "total_consultatii": 75,
+    "cost_mediu": 251.333333,
+    "venit_total": 18850.0
+  },
+  {
+    "specializare": "Nefrologie",
+    "total_consultatii": 68,
+    "cost_mediu": 309.264706,
+    "venit_total": 21030.0
+  },
+  {
+    "specializare": "Radiologie",
+    "total_consultatii": 67,
+    "cost_mediu": 498.80597,
+    "venit_total": 33420.0
+  },
+  {
+    "specializare": "Urologie",
+    "total_consultatii": 66,
+    "cost_mediu": 331.060606,
+    "venit_total": 21850.0
+  },
+  {
+    "specializare": "Psihiatrie",
+    "total_consultatii": 65,
+    "cost_mediu": 339.230769,
+    "venit_total": 22050.0
+  },
+  {
+    "specializare": "Pediatrie",
+    "total_consultatii": 54,
+    "cost_mediu": 228.148148,
+    "venit_total": 12320.0
+  },
+  {
+    "specializare": "Ortopedie",
+    "total_consultatii": 51,
+    "cost_mediu": 289.215686,
+    "venit_total": 14750.0
+  },
+  {
+    "specializare": "Medicină Internă",
+    "total_consultatii": 50,
+    "cost_mediu": 226.8,
+    "venit_total": 11340.0
+  }
+]

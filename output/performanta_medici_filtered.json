@@ -1,0 +1,320 @@
+{
+  "min_consultatii_necesare": 5,
+  "results": [
+    {
+      "id_medic": 297,
+      "nume_medic": "Dr. Dumitrescu Bogdan",
+      "specializare": "Cardiologie",
+      "consultatii_finalizate": 8,
+      "venit_total": 3820.0
+    },
+    {
+      "id_medic": 144,
+      "nume_medic": "Dr. Nemeș Anamaria",
+      "specializare": "Pneumologie",
+      "consultatii_finalizate": 11,
+      "venit_total": 3540.0
+    },
+    {
+      "id_medic": 371,
+      "nume_medic": "Dr. Popescu Robert",
+      "specializare": "Oncologie",
+      "consultatii_finalizate": 7,
+      "venit_total": 3430.0
+    },
+    {
+      "id_medic": 364,
+      "nume_medic": "Dr. Ioniță Erica",
+      "specializare": "Oncologie",
+      "consultatii_finalizate": 7,
+      "venit_total": 3170.0
+    },
+    {
+      "id_medic": 446,
+      "nume_medic": "Dr. Mocanu Aurica",
+      "specializare": "Endocrinologie",
+      "consultatii_finalizate": 10,
+      "venit_total": 3090.0
+    },
+    {
+      "id_medic": 91,
+      "nume_medic": "Dr. Niță Henrieta",
+      "specializare": "Cardiologie",
+      "consultatii_finalizate": 7,
+      "venit_total": 2980.0
+    },
+    {
+      "id_medic": 467,
+      "nume_medic": "Dr. Stoica Zoe",
+      "specializare": "Radiologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 2940.0
+    },
+    {
+      "id_medic": 227,
+      "nume_medic": "Dr. Aanei Angel",
+      "specializare": "Radiologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 2800.0
+    },
+    {
+      "id_medic": 220,
+      "nume_medic": "Dr. Popescu Ion",
+      "specializare": "Oncologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 2780.0
+    },
+    {
+      "id_medic": 327,
+      "nume_medic": "Dr. Stănescu Aleodor",
+      "specializare": "Reumatologie",
+      "consultatii_finalizate": 8,
+      "venit_total": 2700.0
+    },
+    {
+      "id_medic": 483,
+      "nume_medic": "Dr. Gheorghiu Marioara",
+      "specializare": "Oncologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 2500.0
+    },
+    {
+      "id_medic": 302,
+      "nume_medic": "Dr. Dima Luiza",
+      "specializare": "Gastroenterologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 2490.0
+    },
+    {
+      "id_medic": 495,
+      "nume_medic": "Dr. Popa Florin",
+      "specializare": "Psihiatrie",
+      "consultatii_finalizate": 6,
+      "venit_total": 2380.0
+    },
+    {
+      "id_medic": 454,
+      "nume_medic": "Dr. Diaconu Frederic",
+      "specializare": "Ginecologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 2360.0
+    },
+    {
+      "id_medic": 31,
+      "nume_medic": "Dr. Tomescu Costel",
+      "specializare": "Ginecologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 2280.0
+    },
+    {
+      "id_medic": 420,
+      "nume_medic": "Dr. Niță Eugen",
+      "specializare": "Ginecologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 2240.0
+    },
+    {
+      "id_medic": 53,
+      "nume_medic": "Dr. Dumitrescu Felicia",
+      "specializare": "Psihiatrie",
+      "consultatii_finalizate": 7,
+      "venit_total": 2240.0
+    },
+    {
+      "id_medic": 404,
+      "nume_medic": "Dr. Pop Mircea",
+      "specializare": "Hematologie",
+      "consultatii_finalizate": 7,
+      "venit_total": 2200.0
+    },
+    {
+      "id_medic": 318,
+      "nume_medic": "Dr. Aanei Haralamb",
+      "specializare": "Endocrinologie",
+      "consultatii_finalizate": 7,
+      "venit_total": 2200.0
+    },
+    {
+      "id_medic": 466,
+      "nume_medic": "Dr. Niță Tudor",
+      "specializare": "Hematologie",
+      "consultatii_finalizate": 7,
+      "venit_total": 2130.0
+    },
+    {
+      "id_medic": 197,
+      "nume_medic": "Dr. Nemeș Mihai",
+      "specializare": "Reumatologie",
+      "consultatii_finalizate": 7,
+      "venit_total": 2080.0
+    },
+    {
+      "id_medic": 267,
+      "nume_medic": "Dr. Preda Matilda",
+      "specializare": "Oftalmologie",
+      "consultatii_finalizate": 7,
+      "venit_total": 2040.0
+    },
+    {
+      "id_medic": 460,
+      "nume_medic": "Dr. Ardelean Mina",
+      "specializare": "Psihiatrie",
+      "consultatii_finalizate": 6,
+      "venit_total": 2030.0
+    },
+    {
+      "id_medic": 233,
+      "nume_medic": "Dr. Ene Sabrina",
+      "specializare": "Ginecologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 2020.0
+    },
+    {
+      "id_medic": 172,
+      "nume_medic": "Dr. Mocanu Ducu",
+      "specializare": "Ginecologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 2000.0
+    },
+    {
+      "id_medic": 10,
+      "nume_medic": "Dr. Tudor Semenica",
+      "specializare": "Nefrologie",
+      "consultatii_finalizate": 7,
+      "venit_total": 1980.0
+    },
+    {
+      "id_medic": 296,
+      "nume_medic": "Dr. Dumitrescu Clarisa",
+      "specializare": "Neurologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1970.0
+    },
+    {
+      "id_medic": 106,
+      "nume_medic": "Dr. Dochioiu Relu",
+      "specializare": "Ginecologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1900.0
+    },
+    {
+      "id_medic": 102,
+      "nume_medic": "Dr. Niță Corvin",
+      "specializare": "Reumatologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1900.0
+    },
+    {
+      "id_medic": 176,
+      "nume_medic": "Dr. Tomescu Florin",
+      "specializare": "Urologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1890.0
+    },
+    {
+      "id_medic": 381,
+      "nume_medic": "Dr. Voinea Iancu",
+      "specializare": "Endocrinologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1870.0
+    },
+    {
+      "id_medic": 304,
+      "nume_medic": "Dr. Ionescu Luca",
+      "specializare": "Psihiatrie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1860.0
+    },
+    {
+      "id_medic": 380,
+      "nume_medic": "Dr. Stan Casian",
+      "specializare": "Gastroenterologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1830.0
+    },
+    {
+      "id_medic": 22,
+      "nume_medic": "Dr. Dinu Todor",
+      "specializare": "Reumatologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1820.0
+    },
+    {
+      "id_medic": 434,
+      "nume_medic": "Dr. Stancu Grigore",
+      "specializare": "Reumatologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1780.0
+    },
+    {
+      "id_medic": 129,
+      "nume_medic": "Dr. Dumitrescu Șerban",
+      "specializare": "Nefrologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1770.0
+    },
+    {
+      "id_medic": 193,
+      "nume_medic": "Dr. Ababei Delia",
+      "specializare": "Oftalmologie",
+      "consultatii_finalizate": 7,
+      "venit_total": 1730.0
+    },
+    {
+      "id_medic": 415,
+      "nume_medic": "Dr. Manole Ofelia",
+      "specializare": "ORL",
+      "consultatii_finalizate": 7,
+      "venit_total": 1700.0
+    },
+    {
+      "id_medic": 443,
+      "nume_medic": "Dr. Aanei Fabiana",
+      "specializare": "ORL",
+      "consultatii_finalizate": 6,
+      "venit_total": 1700.0
+    },
+    {
+      "id_medic": 130,
+      "nume_medic": "Dr. Barbu Anamaria",
+      "specializare": "Ortopedie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1650.0
+    },
+    {
+      "id_medic": 159,
+      "nume_medic": "Dr. Stănescu Florentina",
+      "specializare": "Endocrinologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1640.0
+    },
+    {
+      "id_medic": 132,
+      "nume_medic": "Dr. Albu Dalia",
+      "specializare": "Hematologie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1620.0
+    },
+    {
+      "id_medic": 190,
+      "nume_medic": "Dr. Ababei Saveta",
+      "specializare": "Pediatrie",
+      "consultatii_finalizate": 7,
+      "venit_total": 1610.0
+    },
+    {
+      "id_medic": 142,
+      "nume_medic": "Dr. Ioniță Natalia",
+      "specializare": "ORL",
+      "consultatii_finalizate": 6,
+      "venit_total": 1550.0
+    },
+    {
+      "id_medic": 228,
+      "nume_medic": "Dr. Barbu Gregorian",
+      "specializare": "Pediatrie",
+      "consultatii_finalizate": 6,
+      "venit_total": 1240.0
+    }
+  ]
+}

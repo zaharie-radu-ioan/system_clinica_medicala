@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% set title = "Search" %}
+
+{% block content %}
+  <div class="page-head">
+    <div>
+      <h1>Search</h1>
+      <p class="muted">Caută dacă există un record într-un tabel.</p>
+    </div>
+  </div>
+
+  <div class="panel">
+    <form method="post" class="form">
+      <div class="form-group">
+        <label>Table</label>
+        <select name="table">
+          {% for t, cfg in site_cfg.items() %}
+            <option value="{{ t }}">{{ cfg["title"] }} ({{ t }})</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Field</label>
+        <input name="field" placeholder="ex: username / sku / id">
+      </div>
+
+      <div class="form-group">
+        <label>Value</label>
+        <input name="value" placeholder="ex: admin / SKU-001 / 1">
+      </div>
+
+      <div class="actions">
+        <button class="btn" type="submit">🔍 Search</button>
+      </div>
+    </form>
+
+    {% if result %}
+      {% if result.ok %}
+        <div class="result-block {{ 'yes' if result.exists else 'no' }}">
+          <div class="result-answer">{{ "DA" if result.exists else "NU" }}</div>
+          <div>
+            <p style="margin:0; font-size:13px; color:var(--text2);">
+              Există în <span class="mono">{{ result.table }}</span> unde
+              <span class="mono">{{ result.field }}</span> = <span class="mono">{{ result.value }}</span>
+            </p>
+          </div>
+        </div>
+      {% else %}
+        <div class="flash flash-error" style="margin-top:18px;">Eroare: {{ result.error }}</div>
+      {% endif %}
+    {% endif %}
+  </div>
+{% endblock %}

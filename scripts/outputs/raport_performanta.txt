@@ -1,0 +1,8 @@
+=== RAPORT PERFORMANTA CLINICA ===
+
+Istoric Pacient (ID): 0.6152ms -> 0.6861ms | Imbunatatire: -11.5%
+Cautare Medic (Specializare): 0.7141ms -> 0.7402ms | Imbunatatire: -3.7%
+Calendar (Data): 0.8813ms -> 0.6420ms | Imbunatatire: 27.2%
+Cautare Pacient (Nume/Prenume): 0.8569ms -> 0.6063ms | Imbunatatire: 29.2%
+Filtrare Status Programari: 1.1438ms -> 0.8792ms | Imbunatatire: 23.1%
+Audit Activitate Utilizator: 0.6385ms -> 0.6097ms | Imbunatatire: 4.5%

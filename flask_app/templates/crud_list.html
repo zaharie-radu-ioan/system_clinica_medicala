@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% set title = table_cfg["title"] %}
+
+{% block content %}
+  <div class="page-head">
+    <div>
+      <div class="breadcrumb">
+        <a href="{{ url_for('index') }}">Dashboard</a>
+        <span>›</span>
+        <span>{{ table_cfg["title"] }}</span>
+      </div>
+      <h1>{{ table_cfg["title"] }}</h1>
+      <p class="muted">CRUD generic — listare, creare, editare, ștergere</p>
+    </div>
+    <a class="btn" href="{{ url_for('crud_create', table=table) }}">+ Create</a>
+  </div>
+
+  <div class="table-wrap">
+    {% if rows %}
+      <div class="table-meta">
+        <span class="table-meta-count">{{ rows|length }}</span> înregistrări în <code>{{ table }}</code>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            {% for c in cols %}<th>{{ c }}</th>{% endfor %}
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for r in rows %}
+          <tr>
+            {% for v in r %}
+            {% set col = cols[loop.index0] %}
+            <td>
+              {% if v in ["programata","finalizata","anulata"] %}
+                <span class="badge badge-{{ v }}">{{ v }}</span>
+              {% elif v in ["admin","medic","pacient"] and col == "rol" %}
+                <span class="badge badge-{{ v }}">{{ v }}</span>
+              {% elif col == "citita" and (v == "0" or v == 0) %}
+                <span class="badge badge-0">necitit</span>
+              {% elif col == "citita" and (v == "1" or v == 1) %}
+                <span class="badge badge-1">citit</span>
+              {% else %}
+                {{ v }}
+              {% endif %}
+            </td>
+            {% endfor %}
+            <td class="actions-col">
+              {% if table_cfg["update_fields"]|length > 0 %}
+                <a class="btn btn-ghost btn-sm" href="{{ url_for('crud_edit', table=table, rec_id=r[0]) }}">Edit</a>
+              {% else %}
+                <span class="muted">—</span>
+              {% endif %}
+
+              <form method="post" action="{{ url_for('crud_delete', table=table, rec_id=r[0]) }}"
+                    onsubmit="return confirm('Stergi înregistrarea #{{ r[0] }}?');">
+                <button class="btn btn-danger btn-sm" type="submit">Delete</button>
+              </form>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+      <div class="empty-state">
+        <div class="empty-state-icon">📋</div>
+        <div class="empty-state-title">Nicio înregistrare</div>
+        <div class="empty-state-sub">Tabelul <code>{{ table }}</code> este gol deocamdată.</div>
+      </div>
+    {% endif %}
+  </div>
+{% endblock %}

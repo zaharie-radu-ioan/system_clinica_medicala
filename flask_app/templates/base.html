@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or "Clinica medicala ZAH" }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-icon">
+        <!-- Medical cross SVG -->
+        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="1" width="4" height="14" rx="1"/>
+          <rect x="1" y="6" width="14" height="4" rx="1"/>
+        </svg>
+      </div>
+      <span>Clinica ZAH</span>
+    </div>
+
+    <nav class="nav">
+      <a href="{{ url_for('index') }}">Dashboard</a>
+      <a href="{{ url_for('search') }}">Search</a>
+      <div class="nav-sep"></div>
+
+      {% for t, c in site_cfg.items() %}
+        <a href="{{ url_for('crud_list', table=t) }}">{{ c["title"] }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+
+  <main class="container">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-wrap">
+          {% for category, message in messages %}
+            <div class="flash flash-{{ category }}">{{ message }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer">
+    Flask · MariaDB · Clinica medicala ZAH &copy; {{ 2025 }}
+  </footer>
+</body>
+</html>
