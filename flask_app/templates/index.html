@@ -14,6 +14,12 @@
         Structura este generată automat din <span class="mono">CRUD_CONFIG</span>.
       </p>
 
+      <div style="margin-top: 20px;">
+      <a href="{{ url_for('sqli_lab') }}" class="btn" style="background-color: #ff4757; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-block;">
+        Accesează SQL Injection Lab
+      </a>
+      </div>
+
       {% if not ready %}
         <div class="panel warning" style="margin-top:18px;">
           <p><b>Setup necesar:</b> baza de date nu conține utilizatori.</p>
