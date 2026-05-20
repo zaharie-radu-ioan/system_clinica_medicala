@@ -1,5 +1,6 @@
 import sys
 from pathlib import Path
+from datetime import timedelta
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -10,19 +11,18 @@ from app.db import run_select, run_execute
 app = Flask(__name__)
 app.secret_key = "dev-secret"
 
-
 CRUD_CONFIG = {
     "utilizator": {
         "pk": "id_utilizator",
         "title": "Utilizatori",
         "create_fields": ["username", "parola", "email", "rol"],
         "update_fields": ["parola", "email", "rol"],
-        "list_fields": ["id_utilizator", "username", "parola","email", "rol"],
+        "list_fields": ["id_utilizator", "username", "parola", "email", "rol"],
         "default_sort": "id_utilizator ASC",
         "choices": {"rol": ["admin", "medic", "pacient"]},
         "children": [
-            {"table": "medic",    "fk": "id_utilizator"},
-            {"table": "pacient",  "fk": "id_utilizator"},
+            {"table": "medic", "fk": "id_utilizator"},
+            {"table": "pacient", "fk": "id_utilizator"},
             {"table": "user_log", "fk": "id_utilizator"},
             {"table": "notificare", "fk": "id_utilizator"},
         ]
@@ -46,7 +46,7 @@ CRUD_CONFIG = {
         "default_sort": "id_pacient ASC",
         "fk_dropdowns": {"id_utilizator": ("utilizator", "id_utilizator", "username")},
         "children": [
-            {"table": "programare",    "fk": "id_pacient"},
+            {"table": "programare", "fk": "id_pacient"},
             {"table": "dosar_medical", "fk": "id_pacient"},
         ]
     },
@@ -72,8 +72,8 @@ CRUD_CONFIG = {
         "default_sort": "id_programare DESC",
         "choices": {"status": ["programata", "finalizata", "anulata"]},
         "fk_dropdowns": {
-            "id_pacient":    ("pacient",    "id_pacient",    "nume"),
-            "id_medic":      ("medic",      "id_medic",      "nume_medic"),
+            "id_pacient": ("pacient", "id_pacient", "nume"),
+            "id_medic": ("medic", "id_medic", "nume_medic"),
             "id_utilizator": ("utilizator", "id_utilizator", "username"),
         },
         "children": [{"table": "consultatie", "fk": "id_programare"}]
@@ -83,12 +83,13 @@ CRUD_CONFIG = {
         "title": "Consultații",
         "create_fields": ["id_programare", "diagnostic", "analize_recomandate", "recomandari_tratament", "cost"],
         "update_fields": ["diagnostic", "analize_recomandate", "recomandari_tratament", "cost"],
-        "list_fields": ["id_consultatie", "id_programare", "diagnostic", "analize_recomandate", "recomandari_tratament", "cost"],
+        "list_fields": ["id_consultatie", "id_programare", "diagnostic", "analize_recomandate", "recomandari_tratament",
+                        "cost"],
         "default_sort": "id_consultatie ASC",
         "fk_dropdowns": {"id_programare": ("programare", "id_programare", "data")},
         "children": [
             {"table": "factura", "fk": "id_consultatie"},
-            {"table": "reteta",  "fk": "id_consultatie"},
+            {"table": "reteta", "fk": "id_consultatie"},
         ]
     },
     "servicii_medicale": {
@@ -108,8 +109,8 @@ CRUD_CONFIG = {
         "list_fields": ["id_linie", "id_consultatie", "id_serviciu", "cantitate", "pret_unitar"],
         "default_sort": "id_linie ASC",
         "fk_dropdowns": {
-            "id_consultatie": ("consultatie",      "id_consultatie", "diagnostic"),
-            "id_serviciu":    ("servicii_medicale", "id_serviciu",    "denumire"),
+            "id_consultatie": ("consultatie", "id_consultatie", "diagnostic"),
+            "id_serviciu": ("servicii_medicale", "id_serviciu", "denumire"),
         }
     },
     "medicament": {
@@ -139,8 +140,8 @@ CRUD_CONFIG = {
         "list_fields": ["id", "id_reteta", "id_medicament", "doza", "frecventa", "durata"],
         "default_sort": "id ASC",
         "fk_dropdowns": {
-            "id_reteta":     ("reteta",      "id_reteta",     "data_emiterii"),
-            "id_medicament": ("medicament",  "id_medicament", "denumire"),
+            "id_reteta": ("reteta", "id_reteta", "data_emiterii"),
+            "id_medicament": ("medicament", "id_medicament", "denumire"),
         }
     },
     "notificare": {
@@ -151,7 +152,7 @@ CRUD_CONFIG = {
         "list_fields": ["id_notificare", "id_utilizator", "mesaj", "tip", "citita", "created_at"],
         "default_sort": "id_notificare DESC",
         "choices": {
-            "tip":    ["reminder", "anulare", "confirmare", "sistem"],
+            "tip": ["reminder", "anulare", "confirmare", "sistem"],
             "citita": ["0", "1"],
         },
         "fk_dropdowns": {"id_utilizator": ("utilizator", "id_utilizator", "username")},
@@ -194,7 +195,7 @@ def fetch_list(table):
     cols = cfg["list_fields"]
     if cols[0] != pk:
         cols = [pk] + [c for c in cols if c != pk]
-    q = f"SELECT {', '.join(cols)} FROM {table} ORDER BY {cfg.get('default_sort', pk+' DESC')};"
+    q = f"SELECT {', '.join(cols)} FROM {table} ORDER BY {cfg.get('default_sort', pk + ' DESC')};"
     rows = run_select(q)
     return cols, rows
 
@@ -284,6 +285,7 @@ def allowed_fields_for_table(table: str):
         fields.add(f)
     return sorted(fields)
 
+
 @app.route("/api/sqli/query", methods=["POST"])
 def api_sqli_query():
     table = (request.form.get("table") or "").strip()
@@ -308,7 +310,12 @@ def api_sqli_query():
             rows = run_select(sql, (value,))
 
         cols = [c[0] for c in run_select(f"SHOW COLUMNS FROM {table};")]
-        data = [list(r) for r in rows]
+
+        # Iteram prin randuri si le convertim (rezolva eroarea cu timedelta nefiind serializabil JSON)
+        data = []
+        for r in rows:
+            clean_row = [str(val) if isinstance(val, timedelta) else val for val in r]
+            data.append(clean_row)
 
         return {
             "ok": True,
@@ -320,6 +327,7 @@ def api_sqli_query():
         }
     except Exception as e:
         return {"ok": False, "error": str(e), "mode": mode}, 500
+
 
 @app.route("/sqli-lab", methods=["GET"])
 def sqli_lab():
@@ -474,4 +482,4 @@ def search():
 
 
 if __name__ == "__main__":
-    app.run(debug=True,port=5001)
+    app.run(debug=True, port=5001)
