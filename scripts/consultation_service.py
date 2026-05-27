@@ -3,7 +3,6 @@ from app.db import get_connection, run_select
 
 print("=== TESTARE COMPLETA: PROGRAMARI SI CONSULTATII ===\n")
 
-# Presupunem că ai deja în baza de date un pacient cu ID 1 și un medic cu ID 1
 id_pacient = 1
 id_medic = 1
 cabinet = "Cabinet Cardiologie 1"
@@ -18,7 +17,6 @@ try:
         ('creare', None, '2026-05-20', '10:00:00', cabinet, id_pacient, id_medic)
     )
 
-    # Preluam ID-ul noii programări
     row = cur.fetchone()
     id_programare_noua = row[0]
 
@@ -54,7 +52,6 @@ try:
     ]
     servicii_json = json.dumps(servicii)
 
-    # Folosim id_programare_noua pentru a asigura o relație 1:1 unică
     cur.execute(
         "CALL finalizare_consultatie(%s, %s, %s, %s, %s);",
         (id_programare_noua, diagnostic, analize_recomandate, recomandari_tratament, servicii_json)

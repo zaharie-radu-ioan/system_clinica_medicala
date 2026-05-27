@@ -35,7 +35,7 @@ for row in rows:
         "venit_total": float(row[4])
     })
 
-# 3. Creăm folderul output dacă nu există (pentru a evita eroarea de FileNotFoundError)
+
 out_path = Path("../output") / "performanta_medici_filtered.json"
 
 out_path.write_text(json.dumps({
